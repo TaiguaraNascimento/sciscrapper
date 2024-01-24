@@ -63,7 +63,7 @@ class GoogleScholar:
                 
                 # Salvar arquivo se aplicável
                 try:
-                    self.webscrapper.fazer_download_do_arquivo(item.endereco_de_arquivo, self.exporter.endereco_de_exportacao, self.exporter.numeracao)
+                    self.webscrapper.fazer_download_do_arquivo(item.endereco_de_arquivo¹, self.exporter.endereco_de_exportacao, self.exporter.numeracao)
                 except:
                     pass
 
